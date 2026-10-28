@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Naji Kabbali – Unreal Engine Game Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e1a2b;--surface:#15263d;--line:#294260;--text:#e8eef7;--muted:#9fb2c9;--accent:#5fd6c8;--accent-ink:#0e1a2b;color-scheme:dark;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.6 "IBM Plex Sans",system-ui,sans-serif}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;margin:0;line-height:1.08}
+header{padding:88px 0 64px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(3rem,10vw,6.6rem);font-weight:800;letter-spacing:-.035em}
+.role{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:clamp(1.15rem,2.4vw,1.5rem);font-weight:500;color:var(--muted);margin:18px 0 28px}
+.lede{max-width:60ch;font-size:1.12rem;margin:0 0 32px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:11px 20px;border:1.5px solid var(--text);color:var(--text);text-decoration:none;font-weight:500;border-radius:6px}
+.btn.main{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn:hover{background:var(--text);color:var(--bg)}
+section{display:grid;grid-template-columns:200px 1fr;gap:24px 48px;padding:56px 0;border-bottom:1px solid var(--line)}
+section>h2{font-size:1.5rem;font-weight:700;position:sticky;top:calc(24px + env(safe-area-inset-top,0px));align-self:start}
+.item{padding:0 0 36px}
+.item:last-child{padding-bottom:0}
+.item+.item{padding-top:36px;border-top:1px solid var(--line)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;margin:6px 0 12px;color:var(--muted);font-size:.95rem}
+h3{font-size:1.5rem;font-weight:700;letter-spacing:-.01em}
+.tag{border:1px solid var(--accent);color:var(--accent);padding:1px 10px;border-radius:99px;font-size:.85rem}
+.tag.dim{border-color:var(--line);color:var(--muted)}
+ul{margin:0 0 14px;padding-left:1.1em}
+li{margin:0 0 8px;max-width:64ch}
+li::marker{color:var(--accent)}
+.links{display:flex;flex-wrap:wrap;gap:6px 20px;font-weight:500}
+.skills{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.skills span{background:var(--surface);border:1px solid var(--line);padding:8px 14px;border-radius:6px;font-size:.97rem}
+.sub{margin:28px 0 12px;font-size:1.05rem;color:var(--muted);font-weight:500;font-family:"Bricolage Grotesque",system-ui,sans-serif}
+.sub:first-child{margin-top:0}
+.award{background:var(--surface);border:1.5px solid var(--accent);border-radius:8px;padding:28px}
+.award h3{font-size:1.7rem}
+footer{padding:48px 0 64px;color:var(--muted);font-size:.95rem}
+footer a{font-weight:500}
+@media (max-width:760px){section{grid-template-columns:1fr;padding:44px 0}section>h2{position:static}header{padding:56px 0 48px}}
+@media (prefers-reduced-motion:no-preference){header h1{animation:rise .7s ease-out both}@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Naji Kabbali</h1>
+  <p class="role">Game developer in Unreal Engine – VR, PC and mobile</p>
+  <p class="lede">Unreal Engine developer with 8 years of experience across VR production, virtual production, game development and PC/VR shooters, spanning client work and self-shipped indie titles.</p>
+  <div class="btns">
+    <a class="btn main" href="mailto:najikbl@gmail.com">najikbl@gmail.com</a>
+    <a class="btn" href="https://linkedin.com/in/naji-kabbali-7383a798">LinkedIn</a>
+    <a class="btn" href="https://sidequestvr.com/app/40828/cybertag">Play Cybertag</a>
+  </div>
+</header>
+
+<section id="projects">
+  <h2>Personal projects</h2>
+  <div>
+    <article class="item">
+      <h3>Cybertag</h3>
+      <div class="meta"><span class="tag">Shipped</span><span>VR multiplayer shooter</span><span>Solo developer, 2025</span></div>
+      <ul>
+        <li>Shipped a standalone VR (Android) multiplayer shooter supporting up to 12 players across five game modes: Team Deathmatch, Free-for-All, Domination, Juggernaut and Base Assault.</li>
+        <li>Built both local network and online multiplayer with real-time voice chat as a low-end device optimization exercise.</li>
+      </ul>
+      <div class="links"><a href="https://sidequestvr.com/app/40828/cybertag">Cybertag on SideQuest</a></div>
+    </article>
+    <article class="item">
+      <h3>I See Monsters</h3>
+      <div class="meta"><span class="tag">Shipped</span><span>Stylized indie horror</span><span>Solo developer, 2022</span></div>
+      <ul>
+        <li>Designed and shipped a stylized horror-puzzle game solo as a lighting and color grading training exercise in my free time.</li>
+      </ul>
+      <div class="links"><a href="https://www.youtube.com/playlist?list=PLVVtSdjtZRAmyENr7ZFj7rn6HT0z6vHhm">Gameplay playlist</a></div>
+    </article>
+    <article class="item">
+      <h3>Infinite Horizon</h3>
+      <div class="meta"><span class="tag dim">Unshipped</span><span>3D first-person shooter</span><span>Solo developer, 2026</span></div>
+      <ul>
+        <li>Training on AAA-quality visuals and open-world optimization.</li>
+      </ul>
+      <div class="links"><a href="https://youtu.be/qgDoahvk3Bk">Gameplay cut</a></div>
+    </article>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div>
+    <article class="item">
+      <h3>VR Developer, Rush Games Studio</h3>
+      <div class="meta"><span>Germany (remote)</span><span>2024 – 2026</span></div>
+      <ul><li>Built VR simulation games in Unreal Engine for a VR games studio in Germany.</li></ul>
+      <div class="links"><a href="https://store.steampowered.com/developer/RushGamesStudio">Studio Steam page</a></div>
+    </article>
+    <article class="item">
+      <h3>Lead Developer, Sheikh Studios</h3>
+      <div class="meta"><span>UAE</span><span>2022 – 2024</span></div>
+      <ul><li>Led development of Web3 games and interactive experiences for external clients, owning technical delivery from concept to launch.</li></ul>
+      <div class="links"><a href="https://www.sheikhstudios.com/portfolio">Studio portfolio</a></div>
+    </article>
+    <article class="item">
+      <h3>Virtual Production Designer, Jayvibe Records</h3>
+      <div class="meta"><span>Morocco</span><span>2020 – 2022</span></div>
+      <ul><li>Built virtual production pipelines and 3D environment art and design for music and media content for the Rise The Nation Africa / Jayvibe Records label.</li></ul>
+      <div class="links"><a href="https://www.instagram.com/jayviberecords/">Jayvibe Records on Instagram</a></div>
+    </article>
+    <article class="item">
+      <h3>VR Developer, STG Telecom</h3>
+      <div class="meta"><span>Morocco</span><span>2018 – 2020</span></div>
+      <ul><li>Developed VR experiences for a former Moroccan telecom client, an early production credit that launched my move into Unreal Engine.</li></ul>
+      <div class="links"><a href="https://youtu.be/U58AS4sHuuE">Demo video</a></div>
+    </article>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div>
+    <p class="sub">Unreal Engine 4/5</p>
+    <div class="skills">
+      <span>Blueprint</span><span>Gameplay and level design</span><span>VR, mobile and PC</span><span>Materials</span><span>Lighting and post processing</span><span>World Partition and Data Layers</span><span>HLODs</span><span>Classic LOD and Nanite</span><span>Widget UI</span><span>Level Sequencer and cinematics</span><span>EOS multiplayer</span><span>Optimization</span><span>Debugging</span>
+    </div>
+    <p class="sub">Art and editing</p>
+    <div class="skills"><span>Blender (generalist)</span><span>Photoshop (generalist)</span><span>Premiere Pro (basic editing)</span></div>
+    <p class="sub">Languages</p>
+    <div class="skills"><span>Arabic – native</span><span>English – proficient</span><span>French – intermediate</span></div>
+  </div>
+</section>
+
+<section id="recognition">
+  <h2>Recognition</h2>
+  <div class="award">
+    <h3>Nominated, IMGA MENA 2018</h3>
+    <div class="meta"><span>International Mobile Game Awards, MENA region</span></div>
+    <p style="margin:0 0 14px;max-width:60ch">Epic Stickman Legends Runner was nominated for the International Mobile Game Awards in the MENA region in 2018.</p>
+    <div class="links"><a href="https://web.archive.org/web/20190619165532/http://mena.imgawards.com/games/epic-stickman-legends-runner">View the nomination (web archive)</a></div>
+  </div>
+</section>
+
+<footer>
+  Based in Morocco. <a href="mailto:najikbl@gmail.com">najikbl@gmail.com</a> · <a href="https://linkedin.com/in/naji-kabbali-7383a798">LinkedIn</a>
+</footer>
+
+</div>
+</body>
+</html>
